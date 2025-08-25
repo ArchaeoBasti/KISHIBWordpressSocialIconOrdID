@@ -1,4 +1,4 @@
-# KIŠIB Wordpress plugin: SocialIconOrdID
+# KIŠIB Wordpress plugin: SocialIconOrcID
 A Wordpress plugin that adds an OrcID option to the social icons in order to add OrcID as an option for social connection.
 
 ## Installation
