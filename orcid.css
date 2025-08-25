@@ -1,0 +1,18 @@
+/* Hover/Fokus – optional */
+.wp-social-link-orcid a:hover,
+.wp-social-link-orcid a:focus {
+  filter: brightness(0.92);
+}
+
+/* Einheitliche Größe/Abstand im Frontend, falls nötig */
+.wp-social-link-orcid .wp-block-social-link-anchor svg {
+	width: 1em;
+	height: 1em;
+}
+
+/* Falls du sicherstellen willst, dass alles die Theme-Farbe übernimmt: */
+.wp-social-link-orcid a,
+.wp-social-link-orcid .wp-block-social-link-anchor,
+.wp-social-link-orcid .wp-block-social-link-anchor svg {
+  color: inherit;
+}

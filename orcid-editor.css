@@ -1,0 +1,20 @@
+/* Editor: generisches Core-Icon ausblenden
+.wp-social-link-orcid .wp-block-social-link__icon {
+  display: none !important;
+}
+ */
+/* Hover/Fokus – optional */
+.wp-social-link-orcid a:hover,
+.wp-social-link-orcid a:focus {
+  filter: brightness(0.92);
+}
+
+.wp-social-link-orcid .wp-block-social-link-anchor::before {
+  content: "";
+  display: inline-block;
+	width: 1em;
+	height: 1em;
+  background: currentColor;
+  -webkit-mask: url("./orcid.svg") no-repeat center / contain;
+  mask: url("./orcid.svg") no-repeat center / contain;
+}
